@@ -1,0 +1,18 @@
+# Spring properties
+server:
+  port: 8080
+  servlet:
+    context-path : /rabbitmq
+
+logging:
+  level:
+    br: DEBUG #TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
+    #com.zaxxer: DEBUG
+    #$org.hibernate: DEBUG
+    #o.hibernate: DEBUG
+
+spring:
+  application:
+    name: exemplo-rabbitmq
+  profiles:
+    active: local
